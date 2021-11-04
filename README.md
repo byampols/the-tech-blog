@@ -21,6 +21,8 @@ A tech blog which allows users to sign-up, login/login, make posts, comment on p
 * Congratulations! You've signed up for The Tech Blog.
 
 ## Usage
+![The Tech Blog](/public/images/screenshot.png)
+
 * Click on a post to view it and comment on it.
 * Press "dashboard" to enter your dashboard, where you can make posts by filling in the "title" and "text" fields, then pressing submit.
 * By scrolling down, you can see all of your posts. Pressing "edit post" allows you to edit or delete the post.
