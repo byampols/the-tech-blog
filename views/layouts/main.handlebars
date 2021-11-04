@@ -11,12 +11,12 @@
     <div class="wrapper">
         <header class="hero">
             <h1 class="app-title">
-                <a href="/">Just Tech News</a>
+                Just Tech News
             </h1>
              <nav>
                 <a class="nav-item" href="/">home</a>
-                {{#if loggedIn}}
                 <a class="nav-item" href="/dashboard">dashboard</a>
+                {{#if loggedIn}}
                 <button id="logout" class="btn-no-style nav-item">logout</button>
                 {{else}}
                 <a class="nav-item" href="/login">login</a>

@@ -11,14 +11,14 @@
           <input name="post-title" type="text" class="form-input form-input-title" value="{{post.title}}" />
         </div>
         <div>
-                <label for="post-url" class="form-label">Text</label>
+                <label for="post-text" class="form-label">Text</label>
           <textarea class="form-input" id="post-text" name="post-text">{{post.post_text}}</textarea>
         </div>
       </div>
       <button type="submit" class="btn">Save post</button>
       <button type="button" class="delete-post-btn btn">Delete post</button>
       <div>
-        By you on {{format_date post.created_at}}
+        Posted on {{format_date post.created_at}}
         |
         <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
       </div>
