@@ -11,7 +11,7 @@ class Post extends Model {
                 where: {
                     id: body.post_id
                 },
-                attributes: ['id', 'post_url', 'title', 'created_at',
+                attributes: ['id', 'post_text', 'title', 'created_at',
             // use raw MySQL aggregate function query to get a count of how many votes the post has and return it under the name `vote_count`
             [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
             ]});
@@ -31,12 +31,9 @@ Post.init(
             type: DataTypes.STRING,
             allowNull: false
         },
-        post_url: {
-            type: DataTypes.STRING,
+        post_text: {
+            type: DataTypes.TEXT,
             allowNull: false,
-            validate: {
-                isUrl: true
-            }
         },
         user_id: {
             type: DataTypes.INTEGER,

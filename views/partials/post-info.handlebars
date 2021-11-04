@@ -5,8 +5,8 @@
     </div>
 
     <div class="meta card-body">
-        {{vote_count}} {{format_plural "point" vote_count}} by {{user.username}} on {{format_date created_at}}
-        |
-        <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+        {{post_text}}
+        
+        <!--| <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>-->
     </div>
 </article>
