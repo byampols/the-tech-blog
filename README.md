@@ -4,7 +4,7 @@
 A tech blog which allows users to sign-up, login/login, make posts, comment on posts, and edit posts. The homepage shows a list of posts by date, and the dashboard allows for the creation and editing of one's own posts. By viewing a post, you can comment on it.
 
 * [Github Source Repository](https://github.com/byampols/the-tech-blog).
-* [Visit the site here!]()
+* [Visit the site here!](https://serene-wildwood-51195.herokuapp.com/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
